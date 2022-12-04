@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto', Courier, monospace;
+    }
+
+header, footer {
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-right: 32px;
+    list-style: none;
+    gap: 32px;
+}
+
+.menulinktext {
+    color: rgb(229,231,235);
+}
+
+.menulink {
+    margin-top: 20px;
+}
+
+.logo {
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+
+.logotext {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.front {
+    display: flex;
+    margin: 64px 32px;
+    height: 400px;
+    flex: 1 1 auto;
+}
+
+.mission {
+    height: 300px;
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+.estimate {
+    background-color: #3B82F6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 12px;
+}
+
+.poster {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    max-width: 50%;
+
+    /* Determine image placement regardless of aspect ratio*/
+    border: 2px dotted rgb(109,116,125); 
+    */
+}
+
+.reviewcontainer {
+    background-color: rgb(229,231,235);
+}
+
+a {
+    text-decoration: none;
+}
