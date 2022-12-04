@@ -67,6 +67,11 @@ h1 {
     border-radius: 12px;
 }
 
+.estimate:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
 .poster {
     flex: 1;
     display: flex;
@@ -135,4 +140,85 @@ h2 {
 .cards p {
     color: rgb(75,85,99);
     font-weight: 500;
+}
+
+.reviewcontainer {
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    flex-direction: column;
+}
+
+.reviewbox p:nth-child(1) {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: auto 32px;
+}
+
+.reviewbox p:nth-child(2) {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 700;
+    margin: auto 32px;
+    align-self: flex-end;
+}
+
+.calltoactionsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction {
+    background-color: #3B82F6;
+    max-width: 80%;
+    margin: 32px;
+    border-radius: 12px;
+    display: flex;
+    color: #F9FAFB;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction .estimate {
+    border: 2px solid #F9FAF8;
+    margin: 16px 32px;
+}
+
+.calltoaction .estimate:hover {
+    border: 1x solid #F9FAF8;
+    background-color: #F9FAF8;
+    color: #3B82F6;
+    margin: 16px 32px;
+}
+
+.calltoactioncontent {
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.calltoactioncontent h2 {
+    color: #F9FAFB;
+}
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: white; 
 }
